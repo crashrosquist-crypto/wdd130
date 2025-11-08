@@ -7,16 +7,37 @@ nav a {
     display: block;
     padding: 20px;
 }
+main img{
+    width: 150px;
+    height: auto;
+}
+main{
+    max-width: 800px;
+}
+
 h1{
-    color: darkblue;
+    color: black;
 }
 img{
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 0;
+}
+aside{
+    width: 800px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: skyblue;
+    color: black;
+}
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
