@@ -59,6 +59,7 @@ nav, p, section, article{
 }
 
 .hero{
+    min-height: 500px;
     margin-bottom: 2rem;
     position: relative;
     
@@ -90,3 +91,8 @@ h1{
     float: right;
     width: 125px;
 }
+
+
+
+
+
