@@ -38,7 +38,7 @@ h1, h2 {
     margin: 40px;
     border: 1rem solid black;
     padding: 1rem;
-    background-color: var(--primary-color);
+    background-color: var(--seconday-color);
     display: inline-block;
     border-radius: 10px;
 }
@@ -59,7 +59,9 @@ nav, p, section, article{
 }
 
 .hero{
+    margin-bottom: 2rem;
     position: relative;
+    
 }
 
 .hero img{
@@ -81,6 +83,7 @@ h1{
 
 .hero article{
     position: absolute;
+    float: right;
 }
 
 .hero article img{
