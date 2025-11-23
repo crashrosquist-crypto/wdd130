@@ -108,10 +108,18 @@ nav, p, section, article{
     
 }
 
-.hero img{
-    display: block;
-    width: 100%;
+.hero article img{
+    float: right;
+    
+    width: 30%;
     height: auto;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.hero p{
+    
+    margin-top: 8rem;
 }
 
 h1{
@@ -125,10 +133,7 @@ h1{
     color: #fff;
 }
 
-.hero article{
-    position: absolute;
-    float: right;
-}
+
 
 .history-grid{
     display: grid;
