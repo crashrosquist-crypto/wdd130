@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(6, 184, 190);
     --seconday-color: rgb(120, 3, 3);
-    --accent1-color: #264653;
+    --accent1-color: #000000;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -164,7 +164,7 @@ h1{
     justify-self: center;
 }
 
-section h3{
+section h2{
     font-size: 2rem;
 
     margin-top: 5rem;
