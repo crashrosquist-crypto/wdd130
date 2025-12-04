@@ -94,12 +94,12 @@ header.hero img {
 }
 
 .logo{
-    height: 30px;
+    height: 100px;
     width: auto;
 }
 
 .logo img {
-    position: relative;
+    display: block;
     height: 100%;
     width: auto;
 }
@@ -129,6 +129,34 @@ header.hero img {
     font-weight: bold;
     justify-self: center;
     padding: 5px;
+}
+
+
+.rafting-pictures img {
+    width: 20rem;
+    height: auto;
+}
+
+.rafting-pictures {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+.rafting-pictures figcaption {
+    text-decoration: none;
+    font-weight: bold;
+    justify-self: center;
+    padding: 5px;
+}
+
+.rafting-pictures figure {
+    border: 6px solid #e9c46a;
+    border-radius: 16px;
+    box-shadow:
+    0 0 15px #e9c46a,
+    0 0 30px rgba(233, 196, 106, 0.6) ;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -284,6 +312,92 @@ h2 {
     line-height: 1.5;
 }
 
-   
+.socialmedia {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    padding: 1rem 0;
+}
 
+.socialmedia a {
+    display: block;
+}
 
+.socialmedia img{
+    width: 40px;
+    height: 40px;
+}
+
+.trips-banner {
+    font-size: 3rem;
+    display: flex;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent2-color);
+    border: solid black 3px;
+}
+
+.trips-banner img {
+    
+}
+
+.equipment figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.equipment {
+    font-size: 3rem;
+    border: solid black 3px;
+    display: flex;
+    margin-top: 10rem;
+    width: 100%;
+    background: var(--accent2-color);
+    overflow: hidden;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.equipment h2 {
+    
+    
+}
+
+.equipment-pictures img {
+    width: 20rem;
+    height: auto;
+}
+
+.equipment-pictures {
+    display: flex;
+    justify-self: center;
+    gap: 7rem;
+    margin-top: 3rem;
+    
+}
+.equipment-pictures figcaption {
+    text-decoration: none;
+    font-weight: bold;
+    justify-self: center;
+    padding: 5px;
+}
+
+.equipment-pictures figure {
+    border: 6px solid #e9c46a;
+    border-radius: 16px;
+    box-shadow:
+    0 0 15px #e9c46a,
+    0 0 30px rgba(233, 196, 106, 0.6) ;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.equipment-banner {
+    font-size: 5rem;
+    margin-top: 5rem;
+}
