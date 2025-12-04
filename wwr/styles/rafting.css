@@ -109,6 +109,7 @@ nav, p, section, article{
     
 }
 
+
 .hero article img{
     float: right;
     
@@ -117,6 +118,8 @@ nav, p, section, article{
     margin-top: 8rem;
     margin-left: 5rem;
 }
+
+
 
 .hero article{
     position: absolute
@@ -197,3 +200,8 @@ section h4{
     display: flex;
     justify-content: center;
 }
+
+
+
+
+

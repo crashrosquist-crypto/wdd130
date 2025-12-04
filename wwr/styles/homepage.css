@@ -1,0 +1,289 @@
+:root{
+    --primary-color: rgb(0, 0, 0);
+    --seconday-color: rgb(120, 3, 3);
+    --accent1-color: #000000;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.8);
+    z-index: 10;
+    width: 90%;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+
+header.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header.hero img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    justify-self: center;
+    
+}
+
+
+
+.container-large{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.container-large nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-large nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    
+}
+
+.logo{
+    height: 30px;
+    width: auto;
+}
+
+.logo img {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.Three-Pictures figure {
+    border: 6px solid #e9c46a;
+    border-radius: 16px;
+    box-shadow:
+    0 0 15px #e9c46a,
+    0 0 30px rgba(233, 196, 106, 0.6) ;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.Three-Pictures img {
+    width: 20rem;
+    height: auto;
+}
+
+.Three-Pictures {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    
+}
+.Three-Pictures figcaption {
+    text-decoration: none;
+    font-weight: bold;
+    justify-self: center;
+    padding: 5px;
+}
+
+h2 {
+    justify-self: center;
+    font-weight: bold;
+    text-size-adjust: large;
+    padding: 2rem;
+   
+}
+
+.newsletter h2 {
+    font-size: 1.5rem;
+    justify-self: center;
+}
+
+.newsletter {
+    max-width: 800px;
+    justify-self: center;
+    text-align: center;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: var(--accent2-color);
+    color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.newsletter p {
+    margin-bottom: 2rem;
+    justify-self: center;
+    font-weight: bold;
+}
+
+.newsletter form {
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: space-around;
+    
+}
+
+.newsletter label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    border-radius:  8px;
+}
+
+.newsletter button {
+    padding: 0.4rem;
+    border-radius: 8px;
+}
+
+.action {
+    border-radius: 8rem;
+    max-width: 600px;
+    height: 300px;
+    justify-self: center;
+    padding: 1rem 1rem;
+    background:var(--accent2-color);
+}
+
+.action h2 {
+    justify-self: center;
+    
+}
+
+.action p {
+    font-size: rem;
+    font-weight: bold;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    justify-content: center;
+    justify-self: center;
+}
+
+.action a {
+    font-size: 5rem;
+    
+}
+
+.action-button:hover {
+    background: white;
+    color: black;
+    transform: matrix3d();
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container figcaption {
+    position: relative;
+    background: var(--accent2-color);
+    margin-bottom: 3rem;
+}
+
+.griddy {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.griddy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #e9c46a;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    position: relative;                /* ← makes the caption stick to the image */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+}
+
+
+
+.grid-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-item figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 2.5rem 1rem 1.5rem;
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+.grid-item h3 {
+    color: #e9c46a;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-item p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+   
+
+

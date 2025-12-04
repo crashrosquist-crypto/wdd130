@@ -54,6 +54,7 @@ h1, h2 {
     height: auto;
 }
 nav{
+    position: absolute;
     display: flex;
     grid-column: 2/4;
     justify-self: end;
