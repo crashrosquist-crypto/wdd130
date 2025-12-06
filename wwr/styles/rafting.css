@@ -93,9 +93,7 @@ nav, p, section, article{
     padding: 1rem 0;
 }
 
-.socialmedia a {
-    display: block;
-}
+
 
 .socialmedia img{
     width: 40px;
@@ -196,10 +194,7 @@ section h2{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-section h4{
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
